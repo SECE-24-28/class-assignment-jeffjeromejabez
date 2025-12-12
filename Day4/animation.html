@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <body>
+        <div id="animation"></div>
+        <div id="transistion"></div>
+        <style>
+            body{
+                display:flex;
+                justify-content:center;
+            }
+            #animation,
+            #transistion {
+                margin:1rem;
+                width:100px;
+                height:100px;
+                background-color: chartreuse;
+            }
+            #animation{
+                animation-name: colorChange;
+                animation-duration: 5000ms;
+            }
+            #transistion{
+                transition-property: width;
+                transition-duration: 3000ms;
+                transition-timing-function: ease-in-out
+
+            }
+            #transistion:hover{
+                width:300px
+            }
+            @keyframes colorChange{
+                from{
+                    background-color: chartreuse;
+                }
+                to{
+                    background-color: red;
+                }
+            }
+        </style>  
+</head>
+</body>
+</html>

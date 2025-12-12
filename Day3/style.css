@@ -1,0 +1,39 @@
+h1{
+   font-style: italic;
+   background-color: aquamarine;
+   border: 1px;
+   display: inline-block;
+   padding:1rem;
+}
+div{
+   font-style: oblique;
+   background-color: rgb(88, 222, 177);
+   border: 1px;
+   display: inline-block;
+   padding:3rem;
+   border-style: dotted;
+   border-width: 7px;
+   font-size:xx-large;
+}
+button
+{
+    color: blue;
+    background-color: rgba(202, 192, 192, 0.468);
+    border-style: dashed;
+    padding:3rem;
+    border-width: 7px;
+    font-style: italic;
+}
+h2{
+    background-color: chartreuse;
+    border-style: groove;
+    border-color: darkblue;
+     border: 1px;
+   display: flex;
+   padding:1rem;
+   justify-content: center;
+}
+iframe{
+    border: 2px solid black;
+    border-style: groove;
+}

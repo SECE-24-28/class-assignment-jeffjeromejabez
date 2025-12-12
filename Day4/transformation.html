@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformer</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            background-color: rgb(124, 206, 43);
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(254, 15, 15);
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .rotateX {
+            transform: rotateX(45deg);
+        }
+        .scaleX {
+            transform: scaleX(1.5);
+        }
+        .scaleY {
+            transform: scaleY(1.5);
+        }
+        .skewX {
+            transform: skewX(20deg);
+        }
+        .skewY {
+            transform: skewY(20deg);
+        }
+        .translate {
+            transform: translate(20px, 20px);
+        }
+
+        .box:hover {
+            background-color:rgb(221, 221, 10);
+            cursor: pointer;
+        }
+
+        .rotateX:hover {
+            transform: rotateX(0deg);
+        }
+        .scaleX:hover {
+            transform: scaleX(1);
+        }
+        .scaleY:hover {
+            transform: scaleY(1);
+        }
+        .skewX:hover {
+            transform: skewX(0deg);
+        }
+        .skewY:hover {
+            transform: skewY(0deg);
+        }
+        .translate:hover {
+            transform: translate(0px, 0px);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="rotateX box">Rotate</div>
+        <div class="scaleX box">ScaleX</div>
+        <div class="scaleY box">ScaleY</div>
+        <div class="skewX box">SkewX</div>
+        <div class="skewY box">SkewY</div>
+        <div class="translate box">Translate</div>
+    </div>
+</body>
+</html>
